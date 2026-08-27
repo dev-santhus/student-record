@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: student-record
+  description: Student record application
+  annotations:
+    github.com/project-slug: dev-santhus/student-record
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/backstage-guest
